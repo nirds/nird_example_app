@@ -1,0 +1,35 @@
+AllCops:
+  Include:
+    - '**/*.gemspec'
+    - '**/Rakefile'
+    - 'lib'
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'app/helpers/devise_helper.rb'
+
+  RunRailsCops: true
+
+Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 17
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 15
+
+Style/DefWithParentheses:
+  Enabled: false
+
+Style/MethodDefParentheses:
+  Enabled: false
+
+AccessorMethodName:
+  Enabled: false
+

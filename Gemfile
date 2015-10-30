@@ -13,6 +13,8 @@ gem 'devise'
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
+  gem 'rubocop', require: false
+  gem 'rubocop-rspec'
 end
 
 group :test do
