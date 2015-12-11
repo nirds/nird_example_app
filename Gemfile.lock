@@ -1,3 +1,9 @@
+PATH
+  remote: ../grace_period
+  specs:
+    grace_period (0.0.1)
+      contracts (~> 0.12.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -59,6 +65,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
+    contracts (0.12.0)
     debug_inspector (0.0.2)
     devise (3.5.2)
       bcrypt (~> 3.0)
@@ -212,6 +219,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   devise
   giphy
+  grace_period!
   jbuilder (~> 2.0)
   jquery-rails
   pg
