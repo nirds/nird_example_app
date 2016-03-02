@@ -1,0 +1,5 @@
+grace_period:
+  name: 'Mr. Always expired'
+  exipration_time: <%= 1.second.ago %>
+  expiration_message: 'This thing expired. Do stuff!'
+  solution_message: 'Get Whitney to fix it.'
