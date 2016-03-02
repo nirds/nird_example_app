@@ -16,6 +16,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'rubocop-rspec'
+  gem 'grace_period', path: '/Users/adambell/nird/grace_period'
+  gem 'pry'
 end
 
 group :test do
